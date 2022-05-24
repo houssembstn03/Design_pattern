@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract_Factory\Abstract_factory.cs" />
+    <Compile Include="Abstract_Factory\Factory.cs" />
+    <Compile Include="Abstract_Factory\ITireXLarge.cs" />
+    <Compile Include="Abstract_Factory\ITireSmall.cs" />
+    <Compile Include="Abstract_Factory\ITireLarge.cs" />
     <Compile Include="Factory\Car.cs" />
     <Compile Include="Factory\FactoryCar.cs" />
     <Compile Include="Factory\sedanCar.cs" />

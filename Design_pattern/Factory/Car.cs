@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_pattern.Factory
 {
@@ -14,14 +10,11 @@ namespace Design_pattern.Factory
         public void RunCar()
         {
             Console.WriteLine(CarName + " is running");
-
         }
 
         public void showCar()
         {
-
             Console.WriteLine(CarModel + " is showing");
-
         }
 
     }

@@ -1,13 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Design_pattern.Factory;
 
-namespace Design_pattern.Factory
+
+namespace Design_pattern.Abstract_factory
 {
      class FactoryCar
     {
+
         public Car GetYourCar(string type)
         {
             switch (type)

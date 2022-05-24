@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Design_pattern.Factory;
+using Design_pattern.Abstract_Factory;
 
 namespace Design_pattern
 {
@@ -20,13 +17,20 @@ namespace Design_pattern
             //s2.print();
 
             //test factory
-            Car car = null;
+            //Car car = null;
+            //Console.WriteLine("select your type car U= usv car, S= Sudan car, T= track car:");
+            //string type=Console.ReadLine();
+
+            //car = new FactoryCar().GetYourCar(type);
+
+            //RunningActions(car);
+
+            //test abstract factory
             Console.WriteLine("select your type car U= usv car, S= Sudan car, T= track car:");
             string type=Console.ReadLine();
+            Abstract_Factory.Abstract_factory af =new Abstract_Factory.Factory();
+            af.drowTire(type);
 
-            car = new FactoryCar().GetYourCar(type);
-
-            RunningActions(car);
 
             Console.ReadKey(true);  
         }
